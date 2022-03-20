@@ -11,3 +11,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  background-color:black;
+ 
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.item{
+  border: 1px solid gray;
+  padding: 5px;
+  width: 150px;
+  height: auto;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-left: 50px;
+  background-color:gainsboro;
+  border-radius: 5px;
+  font-weight: 800;
+
+  
+}
+.item:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px red;
+  background-color: whitesmoke;
+ 
+}
+
+.user-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color:lemonchiffon;
+ 
+}
+
+.user-box{
+  border: 1px solid black;
+  height: 50vh;
+  width: 60vh;
+  background-color:floralwhite;
+  border-radius: 10px;
+  box-shadow: 15px 15px 10px black;
+ 
+}
+
+.user-box:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  
+
+}
+
+
+
+.input{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.input>input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+ 
+}
+
+.input>input:hover{
+  background-color: black;
+  color: aliceblue;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.add-btn{
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: black;
+  color: aliceblue;
+  font-weight: 600;
+ 
+}
+
+.add-btn:hover{
+  background-color: chartreuse;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0px 0px 20px black;
+  border: 1px solid gray;
+}
+
+.item-list{
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  box-shadow: 10px 15px 10px black;
+  
+}
+.item-list:hover{
+background-color:black;
+color: aliceblue;
+transform: scale(1.1);
+
+}
+.main-item-container{
+  background-color: aquamarine;
+  height: 100vh;
+  margin-top: 0px;
+  display: flex;
+flex-direction: column;
+cursor: pointer;
+}
