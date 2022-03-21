@@ -3,6 +3,10 @@ import { useState } from "react"
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addUsers } from "./slice";
+
+
+
+
 export default function User(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");

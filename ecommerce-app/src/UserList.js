@@ -7,7 +7,7 @@ export default function UserList(){
     return (
         <div className="main-item-container">
             <h1>UserList Componennt</h1>
-            {data.map((item, index) => (
+            {data.map((item) => (
                 <div  className="item-list" >
                     <p> Name : {item.name} </p>
                     <p> Email-Id : {item.email} </p>

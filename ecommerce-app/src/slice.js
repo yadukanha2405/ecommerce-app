@@ -6,7 +6,7 @@ export const slice = createSlice({
         addUsers: (state, action)=>{
             state = [...state, action.payload]
             return state;
-        }
+        },
     }
 });
 
